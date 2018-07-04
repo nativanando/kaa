@@ -23,6 +23,7 @@ RUN apt-get update && apt-get -yqq install \
 		ca-certificates \
 		netcat \
 		nano \
+        vim \
 		net-tools \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
